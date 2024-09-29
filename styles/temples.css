@@ -1,14 +1,50 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     display: grid;
     grid-gap: 20px;
+    background-color: rgba(0, 102, 255, 0.808);
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.514);
+
 }
 
-nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+h1, nav a{
+    color: white;
 }
+
+.menu-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 25px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white; 
+    cursor: pointer;
+    align-self: flex-end; 
+    width: 20px;
+   
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px;
+}
+
+.menu-open {
+    display: flex; /* It shows the menu when the button is clicked */
+}
+
 
 nav a{
     text-decoration: none;
@@ -32,6 +68,8 @@ main{
 
 footer{
     text-align: center;
+    background-color: rgba(0, 102, 255, 0.808);
+    padding: 20px;
 }
 
 figure img{
