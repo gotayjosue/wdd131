@@ -34,6 +34,20 @@ h1, nav a{
    
 }
 
+.menu-toggle:focus {
+    outline: none;
+}
+
+.menu-toggle.active {
+    color: transparent; 
+}
+
+.menu-toggle.active::before {
+    content: '✖'; 
+    color: white; 
+    font-size: 24px; 
+}
+
 .navigation {
     display: none;
     flex-direction: column;
