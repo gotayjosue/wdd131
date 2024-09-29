@@ -1,0 +1,24 @@
+@media screen and (min-width: 500px) {
+    header{
+        display: flex;
+		align-items: center;
+		justify-content: space-between;
+    }
+
+    nav{
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+
+    main{
+        max-width: 1000px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 70px;
+
+    }
+
+}
