@@ -15,5 +15,4 @@ const fullName = (first, last) => {
 
     return `${first} ${last}`
 }
-
 document.querySelector('#fullName').textContent = fullName(firstName, lastName);
