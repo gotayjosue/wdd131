@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Josué Hernández Gotay">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Josué Hernández Gotay">
+    <title>Place</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Canada</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/landscape-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/landscape-medium.webp" media="(min-width: 550px)">
+                <img src="images/landscape-small.webp" alt="Canada landscape photo" width="500" height="666">
+            </picture>
+        </div>
+        <div class="data">
+            <h3>Data</h3>
+            <ul class="titles">
+                <strong>
+                    <li>Area:</li>
+                    <li>Population:</li>
+                    <li>Capital:</li>
+                    <li>Languages:</li>
+                    <li>Currency:</li>
+                    <li>Time Zone:</li>
+                    <li>Calling Code:</li>
+                    <li>Internat TLD:</li>
+                </strong>
+            </ul>
+            <ul class="results">
+                <li>9,984,670 sq km</li>
+                <li>40,381,196</li>
+                <li>Ottawa</li>
+                <li>English, French</li>
+                <li>Canadian Dollar</li>
+                <li>UTC-8</li>
+                <li>+1</li>
+                <li>.ca</li>
+            </ul>
+        </div>
+        <div class="weather">
+            <h3>Weather</h3>
+            <img src="images/weather-icon.svg" alt="Weather icon">
+            <ul class="titles2">
+                <strong>
+                    <li>Temperature:</li>
+                    <li>Conditions:</li>
+                    <li>Wind:</li>
+                    <li>Wind Chill:</li>
+                </strong>
+            </ul>
+            <ul class="results2">
+                <li>15°C</li>
+                <li>Partly Cloudy</li>
+                <li>18 km/h</li>
+                <li id="wind-chill"></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <footer>
+            <span id="currentyear"></span> 
+            <span id="flower">&#x1F33B</span> 
+            <span id="name"></span>
+            <span id="flower2">&#x1F33B</span>
+            <span id="country"></span> 
+            <br>
+            <span id="lastModified"></span>
+        </footer>
+    </footer>
+</body>
+</html>
