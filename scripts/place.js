@@ -8,17 +8,16 @@ document.getElementById('country').textContent = `Honduras`;
 document.getElementById('lastModified').textContent = `Last modification ${document.lastModified}`;
 
 
-let temperature = convertCelsius(15)
+let temperature = convertCelsius(10) //Teperature un celsius//
 
-let wind = convertKilometers(18)
+let wind = convertKilometers(18) //wind speed in kilometers per hour//
 
-function calculateWindChill (temp, windSpeed) {
 
-    windChill = 35.74 + 0.6215 * temp - 35.75 * windSpeed**0.16 + 0.4275 * temp * windSpeed**0.16
+//wind chill formula. It uses the temperature already converted to fahrenheit and the wind speed converted to mph//
+const calculateWindChill = (temp, windSpeed) =>  windChill = 35.74 + 0.6215 * temp - 35.75 * windSpeed**0.16 + 0.4275 * temp * windSpeed**0.16
 
-    return Math.round(windChill)
-}
 
+//This function converts the result of the calculateWindChill function to celsius//
 function convertFahrenheit(grades){
 
     celsius = (grades - 32) * 5/9
@@ -27,6 +26,7 @@ function convertFahrenheit(grades){
 
 }
 
+//This formula converts the temperature variable input (which is celsius) to fahrenheit. For it to can be use by the calculateWindChill formula//
 function convertCelsius(grades){
 
     fahrenheit = (grades * 9/5) + 32
@@ -35,6 +35,7 @@ function convertCelsius(grades){
 
 }
 
+//This formula converts the wind variable input (which is km/h) to m/h. For it to can be use by the calculateWindChill formula//
 function convertKilometers(speed){
 
     miles = speed * 0.621371
@@ -42,4 +43,9 @@ function convertKilometers(speed){
     return Math.round(miles)
 }
 
-document.querySelector('#wind-chill').textContent = `${convertFahrenheit(calculateWindChill(temperature, wind))}ºC`
+if (temperature <= 50 && wind > 3 ) {
+
+    document.querySelector('#wind-chill').textContent = `${convertFahrenheit(calculateWindChill(temperature, wind))}ºC`
+} else{
+    document.querySelector('#wind-chill').textContent = `N/A` 
+}
