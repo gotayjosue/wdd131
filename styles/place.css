@@ -132,10 +132,10 @@ footer span{
     line-height: 25px;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 500px){
 
     main{
-        max-width: 900px;
+        max-width: 100%;
     }
 
 }
