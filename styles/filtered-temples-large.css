@@ -1,0 +1,27 @@
+@media screen and (min-width: 1000px) {
+    header{
+        display: flex;
+		align-items: center;
+		justify-content: space-between;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .menu-toggle{
+        display: none;
+    }
+
+    main{
+        max-width: 100%;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
