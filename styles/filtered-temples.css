@@ -89,9 +89,9 @@ article{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151);
 }
 
-article h3{
+article h2{
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 article img{
