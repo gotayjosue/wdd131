@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
+}
+
+form{
+    margin-top: 20px;
+    background-color: rgba(81, 163, 240, 0.473);
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+}
+
+.pr1 label{
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+.pr1 input[type = 'text'],
+.pr1 input[type = 'date'],
+textarea,
+.pr1 input[type = 'radio'],
+.pr1 select{
+    background-color: #eee;
+    display: block;
+    border: solid 1px rgb(216, 209, 209);
+    border-radius: 6px;
+    padding: .75rem;
+    color: gray;
+    width: 100%; 
+    max-width: 600px;
+}
+
+.pr1 input[type = 'checkbox']{
+    margin-right: 10px;
+}
+
+.rating-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pr1 input[type = 'radio']{
+    margin: auto;
+}
+
+.rating-div label{
+    margin: auto;
+}
+
+textarea{
+    padding: 40px;
+}
+
+.pr1 input[type = 'submit']{
+    border: solid 1px rgb(148, 146, 146);
+    background-color: #eee;
+    color: #000000;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+     
+}
+
+footer{
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+    .rating-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+}
