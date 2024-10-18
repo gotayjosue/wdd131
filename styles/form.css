@@ -9,6 +9,11 @@ main{
     margin: auto;
 }
 
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
 form{
     margin-top: 20px;
     background-color: rgba(81, 163, 240, 0.473);
