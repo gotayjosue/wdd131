@@ -37,12 +37,14 @@ const products = [
     }
   ];
 
-  function displayProducts(){
-    products.forEach(product => {
+  function displayProducts(prod){
+    prod.forEach(product => {
         const option = document.createElement('option')
         option.textContent = product.name
         options.appendChild(option)
     })
   }
 
+
   displayProducts(products)
+
