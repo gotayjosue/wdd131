@@ -45,6 +45,4 @@ const products = [
     })
   }
 
-
   displayProducts(products)
-
