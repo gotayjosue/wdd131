@@ -30,10 +30,10 @@ header{
     right: 0;
     top: 0;
     left: 0;
-    filter: blur(1.5px);
-    height: auto;
+    filter: brightness(0.5) blur(4px);
     object-fit: cover; 
     width: 100%;
+    
 }
 
 .menu-toggle {
@@ -68,7 +68,7 @@ header{
     font-size: 24px; 
 }
 
-.navigation {
+nav {
     position: fixed;
     display: none;
     flex-direction: column;
@@ -98,12 +98,13 @@ header h2{
     color: white;
     text-align: center;
     margin-top: 250px;
+    font-weight: 800;
 }
 
 header p{
     color: white;
     text-align: center;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 header input[type = 'text']{
@@ -111,3 +112,67 @@ header input[type = 'text']{
     border: none;
     width: 100%;
 }
+
+main{
+    padding: 20px;
+    width: 100%;
+   
+}
+
+.gallery{
+    margin-top: 250px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+.gallery img{
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.363);
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00bfe5b7;
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer img{
+    width: 80%;
+}
+
+.media{
+    display: flex;
+}
+
+@media screen and (min-width: 500px){
+
+
+    header p{
+        font-size: 25px;
+    }
+
+    header h2{
+        font-size: 30px;
+    }
+}
+
