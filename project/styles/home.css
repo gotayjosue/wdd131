@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: absolute;
+    max-width: 150px;
+    top: 0;
+    left: 0;
+    filter: brightness(0) invert(1);
+    
+}
+
+header{
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.hero{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    left: 0;
+    filter: blur(1px);
+    height: auto;
+    object-fit: cover;
+
+    
+}
+
+.menu-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 25px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white; 
+    cursor: pointer;
+    align-self: flex-end; 
+    width: 20px;
+    z-index: 2;
+   
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+.menu-toggle.active {
+    color: transparent; 
+}
+
+.menu-toggle.active::before {
+    content: '✖'; 
+    color: white; 
+    font-size: 24px; 
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end; 
+    gap: 30px;
+    z-index: 1;
+    margin-top: 60px;
+}
+
+.menu-open {
+    display: flex; /* It shows the menu when the button is clicked */
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
