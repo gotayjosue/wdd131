@@ -93,10 +93,11 @@ main{
 }
 
 .img-detail{
-    margin-top: 150px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 
 .img-detail img{
@@ -105,12 +106,54 @@ main{
     max-width: 300px;
 }
 
+.artist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    height: 20px;
+    max-width: 400px;
+    grid-row: 2;
+    
+}
+
+.artistName{
+   grid-column: 1/3; 
+   grid-row: 1;
+   margin-left: -50px;
+   
+}
+
+.artist img{
+    width: 30%;
+    border-radius: 100%;
+    grid-column: 1;
+    grid-row: 1/3;
+    margin-left: 50px;
+}
+
+.invitation{
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
 .like{
     font-size: 30px;
     border: none;
     cursor: pointer;
     background: none;
-    margin-bottom: 25px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 50px;
+    margin-left: 50px;
+    margin-top: -5px;
+    z-index: 5;
+
+    
     
 }
 
@@ -118,16 +161,8 @@ main{
     color: red;
 }
 
-.artist{
-    text-align: center;
-    margin-top: 30px;
-}
 
-.artist img{
-    width: 50px;
-    height: 50px;
-    border-radius: 500px;
-}
+
 
 footer{
     display: flex;
@@ -167,4 +202,5 @@ footer img{
         height: auto;
         object-fit: cover;
     }
+
 }
