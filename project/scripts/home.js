@@ -26,7 +26,12 @@ function displayPhotos(photos){
             const image = document.createElement('img')
             image.src = photo.imageUrl
             image.alt = photo.description
-            image.loading = "lazy"
+            image.loading = "lazy" 
+
+            image.addEventListener('click', () => {
+                localStorage.setItem('selectedPhoto', JSON.stringify(photo));
+                window.location.href = 'details.html';
+            });
 
             gallery.append(image)
 
@@ -57,5 +62,7 @@ search.addEventListener('keypress', (event) => {
     }
 
 });
+
+
 
 getPhotos()

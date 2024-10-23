@@ -14,3 +14,12 @@ likeButton.addEventListener('click', () => {
     likeButton.classList.toggle('liked');
     likeButton.textContent = likeButton.classList.contains('liked') ? '❤️' : '🤍';
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+    const selectedPhoto = JSON.parse(localStorage.getItem('selectedPhoto'));
+
+    if (selectedPhoto) {
+        document.querySelector('#artist-name').textContent = selectedPhoto.artist;
+        document.querySelector('#large-image').src = selectedPhoto.imageUrl;
+    }
+});
