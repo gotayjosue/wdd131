@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.logo{
+    position: absolute;
+    max-width: 130px;
+    top: 0;
+    left: 0;
+    filter: invert(1);
+    
+}
+
+header{
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.menu-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 25px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: black; 
+    cursor: pointer;
+    align-self: flex-end; 
+    width: 20px;
+    z-index: 2;
+    overflow: hidden;
+   
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+.menu-toggle.active {
+    color: transparent; 
+}
+
+.menu-toggle.active::before {
+    content: '✖'; 
+    color: black; 
+    font-size: 24px; 
+}
+
+nav {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    text-align: right;
+    right: 0;
+    gap: 15px;
+    margin-top: 40px;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+.menu-open {
+    display: flex; /* It shows the menu when the button is clicked */
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    flex: 1;
+}
+
+.favorites{
+    margin-top: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+.favorites img{
+    width: 100%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.219);
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00bfe5b7;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+footer p{
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer img{
+    width: 80%;
+}
+
+.media{
+    display: flex;
+}

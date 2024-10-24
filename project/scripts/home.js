@@ -17,7 +17,7 @@ const noResultsMessage = document.querySelector('#noResultsMessage')
 function displayPhotos(photos){
     gallery.innerHTML = ''
 
-    if (photos.length === 0){
+    if (photos.length === 0){ /*Verifying if there are photos in the home page. This is because if the user search for something and nothing match this message is going to show up*/
         noResultsMessage.style.display = 'block';
     }
     else{
@@ -28,6 +28,8 @@ function displayPhotos(photos){
             image.alt = photo.description
             image.loading = "lazy" 
 
+            /*This code bellow send the image information to the local storage
+            to use it in the details page*/
             image.addEventListener('click', () => {
                 localStorage.setItem('selectedPhoto', JSON.stringify(photo));
                 window.location.href = 'details.html';
@@ -39,7 +41,7 @@ function displayPhotos(photos){
     }
 }
 
-const getPhotos = async() => {
+const getPhotos = async() => { /*Getting the list of photos and their information from the json file in the github repository*/
 
     const response = await fetch("https://gotayjosue.github.io/wdd131/project/photos.json")
 
@@ -49,14 +51,15 @@ const getPhotos = async() => {
 }
 
 
-function searchPhotos(query){
+function searchPhotos(query){ /*This function compares the input provided by the user with the image description to show the results if some match is found*/
+
     const filteredPhotos = photosList.filter(photo => photo.description.toLowerCase().includes(query.toLowerCase()))
     displayPhotos(filteredPhotos)
 }
 
 search.addEventListener('keypress', (event) => {
 
-    if (event.key === 'Enter'){
+    if (event.key === 'Enter'){ /*This one executes the the code inside the searchPhotos function when the user press enter*/
         const searchTerm = search.value.trim();
         searchPhotos(searchTerm)
     }

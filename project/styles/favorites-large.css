@@ -1,0 +1,40 @@
+@media screen and (min-width: 1000px){
+
+    .navigation{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 80px;
+        margin-top: -1px;
+        font-size: 20px;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    }
+
+    .favorites{
+        margin-top: -10px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 25px;
+    }
+
+    .favorites img{
+        grid-auto-flow: column;
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.219);
+    }
+    
+    .menu-toggle{
+        display: none;
+    }
+
+
+    footer{
+        margin-top: 50px;
+    }
+
+}
