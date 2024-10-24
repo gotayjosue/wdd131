@@ -20,12 +20,12 @@
         padding: 25px;
     }
 
-    .favorites img{
-        grid-auto-flow: column;
-        width: 100%;
-        height: auto;
-        max-height: 400px;
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.219);
+    .photoContainer img{
+        transition: 1s;
+    }
+    .photoContainer img:hover{
+        transition: 1s;
+        filter: brightness(1.150);
     }
     
     .menu-toggle{

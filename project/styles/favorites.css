@@ -97,15 +97,47 @@ main{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 15px;
+    grid-gap: 120px;
     padding: 20px;
 }
 
-.favorites img{
+
+.photoContainer{
+    position: relative;
     width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: inline-block;
+    text-align: center;
+}
+
+.photoContainer img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.219);
 }
 
+.star{
+    font-size: 50px;
+}
+
+.erase{
+    margin-top: 10px;
+    padding: 8px;
+    background-image: linear-gradient(rgba(126, 12, 12, 0.808), rgba(248, 18, 18, 0.479));
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.219);
+    transition: .8s;
+}
+
+.erase:hover{
+    background-color: red;
+    transition: .8s;
+}
 
 footer{
     display: flex;
