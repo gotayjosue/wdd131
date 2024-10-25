@@ -139,6 +139,11 @@ main{
     transition: .8s;
 }
 
+.message{
+    text-align: center;
+    font-size: 25px;
+}
+
 footer{
     display: flex;
     align-items: center;

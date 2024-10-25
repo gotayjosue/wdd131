@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const favoriteContainer = document.querySelector('#favorites')
 
+const noFavoritesMessage = document.querySelector('#noFavoritesMessage')
+
 let favoritePhotos = JSON.parse(localStorage.getItem('favorites')) || [];
 
 if (favoritePhotos.length > 0) { /*Iterating through the favorites array to put the photos into the prepare container of the favorites page*/
@@ -21,9 +23,6 @@ if (favoritePhotos.length > 0) { /*Iterating through the favorites array to put 
 
         const photoContainer = document.createElement('div')
         photoContainer.classList.add('photoContainer')
-
-        const overlay = document.createElement('div')
-        overlay.classList.add('overlay')
 
         const eraseButton = document.createElement('button')
         eraseButton.classList.add('erase')
@@ -50,4 +49,6 @@ if (favoritePhotos.length > 0) { /*Iterating through the favorites array to put 
         })
         
     });
+}else{
+    noFavoritesMessage.style.display = 'block'
 }
