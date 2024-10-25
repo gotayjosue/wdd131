@@ -17,6 +17,7 @@ likeButton.addEventListener('click', () => { /*This function changes the class o
     likeButton.classList.toggle('liked');
     likeButton.textContent = likeButton.classList.contains('liked') ? '❤️' : '🤍';
 
+/*This code bellow is to add a photo to the favorites list if the like button is click*/
     const likedPhoto = JSON.parse(localStorage.getItem('selectedPhoto'))
     
     if (likedPhoto) {
@@ -30,7 +31,7 @@ likeButton.addEventListener('click', () => { /*This function changes the class o
 
             localStorage.setItem('favorites', JSON.stringify(favorites));
         }
-        else{ /*Erase a photo from the favorites array in the local storage*/
+        else{ /*Erase a photo from the favorites array in the local storage if the user dislike the photo*/
             favorites = favorites.filter(photo => photo.imageUrl !== likedPhoto.imageUrl)
             localStorage.setItem('favorites', JSON.stringify(favorites));
         }

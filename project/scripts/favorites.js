@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const favoriteContainer = document.querySelector('#favorites')
 
-const favoritePhotos = JSON.parse(localStorage.getItem('favorites')) || [];
+let favoritePhotos = JSON.parse(localStorage.getItem('favorites')) || [];
 
 if (favoritePhotos.length > 0) { /*Iterating through the favorites array to put the photos into the prepare container of the favorites page*/
 
@@ -43,8 +43,8 @@ if (favoritePhotos.length > 0) { /*Iterating through the favorites array to put 
         
         eraseButton.addEventListener('click', () =>{
 
-            const updateFavorites = favoritePhotos.filter(fav => fav.imageUrl !== photo.imageUrl)
-            localStorage.setItem('favorites', JSON.stringify(updateFavorites));
+            favoritePhotos = favoritePhotos.filter(fav => fav.imageUrl !== photo.imageUrl)
+            localStorage.setItem('favorites', JSON.stringify(favoritePhotos));
 
             photoContainer.remove()
         })
