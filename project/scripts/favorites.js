@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+const logo = document.getElementById('logo')
+
 
 const favoriteContainer = document.querySelector('#favorites')
 
