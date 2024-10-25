@@ -104,6 +104,13 @@ main{
     width: 100%;
     height: auto;
     max-width: 300px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.192);
+    transition: .8s;
+}
+
+.img-detail img:hover{
+    filter: brightness(1.150);
+    transition: .8s;
 }
 
 .artist{
@@ -160,7 +167,6 @@ main{
 .like.liked{
     color: red;
 }
-
 
 
 

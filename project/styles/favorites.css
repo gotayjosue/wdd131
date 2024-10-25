@@ -97,7 +97,7 @@ main{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 120px;
+    grid-gap: 140px;
     padding: 20px;
 }
 
@@ -145,7 +145,7 @@ footer{
     justify-content: space-between;
     background-color: #00bfe5b7;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 footer p{
