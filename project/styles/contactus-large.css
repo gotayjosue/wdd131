@@ -1,0 +1,23 @@
+@media screen and (min-width: 1000px){
+
+    .navigation{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 80px;
+        margin-top: -1px;
+        font-size: 20px;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    }
+
+
+    .menu-toggle{
+        display: none;
+    }
+
+    main{
+        margin-top: 50px;
+    }
+}

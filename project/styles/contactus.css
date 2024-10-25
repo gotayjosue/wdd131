@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.logo{
+    position: absolute;
+    max-width: 130px;
+    top: 0;
+    left: 0;
+    filter: invert(1);
+    
+}
+
+header{
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.menu-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 25px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: black; 
+    cursor: pointer;
+    align-self: flex-end; 
+    width: 20px;
+    z-index: 2;
+    overflow: hidden;
+   
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+.menu-toggle.active {
+    color: transparent; 
+}
+
+.menu-toggle.active::before {
+    content: '✖'; 
+    color: black; 
+    font-size: 24px; 
+}
+
+nav {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    text-align: right;
+    right: 0;
+    gap: 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+.menu-open {
+    display: flex; /* It shows the menu when the button is clicked */
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    flex: 1;
+    margin-top: 150px;
+}
+
+.imageContainer{
+    text-align: center;
+}
+
+h2, p{
+    margin-top: 10px;
+}
+
+.f1{
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 16px;
+    max-width: 500px;
+    
+}
+
+.formLogo{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.f1 label{
+    display: block;
+    padding-top: 1rem;
+    margin-top: 15px;
+}
+
+.f1 input[type = 'text'],
+input[type = 'email'],
+input[type = 'file']{
+
+    display: block;
+    width: 100%;
+    padding: .75rem;
+}
+
+HTML CSS 
+
+Result
+Skip Results Iframe
+
+EDIT ON
+
+input[type="file"] {
+outline: none;
+padding: 4px;
+margin: -4px;
+}
+
+input[type="file"]:focus-within::file-selector-button,
+input[type="file"]:focus::file-selector-button {
+outline: 2px solid #0964b0;
+outline-offset: 2px;
+}
+
+input[type="file"]::before {
+top: 16px;
+}
+
+input[type="file"]::after {
+top: 14px;
+}
+
+/* ------- From Step 2 ------- */
+
+input[type="file"] {
+position: relative;
+}
+
+input[type="file"]::file-selector-button {
+width: 40%;
+color: transparent;
+}
+
+/* Faked label styles and icon */
+input[type="file"]::before {
+position: absolute;
+pointer-events: none;
+/*   top: 11px; */
+left: 40px;
+color: #0964b0;
+content: "Upload Files";
+}
+
+input[type="file"]::after {
+position: absolute;
+pointer-events: none;
+/*   top: 10px; */
+left: 16px;
+height: 20px;
+width: 20px;
+content: "";
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230964B0'%3E%3Cpath d='M18 15v3H6v-3H4v3c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-3h-2zM7 9l1.41 1.41L11 7.83V16h2V7.83l2.59 2.58L17 9l-5-5-5 5z'/%3E%3C/svg%3E");
+}
+
+/* ------- From Step 1 ------- */
+
+/* file upload button */
+input[type="file"]::file-selector-button {
+border-radius: 4px;
+padding: 0 16px;
+height: 40px;
+cursor: pointer;
+background-color: white;
+border: 1px solid rgba(0, 0, 0, 0.16);
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+margin-right: 16px;
+transition: background-color 200ms;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+background-color: #e5e7eb;
+}
+
+
+.buttonContainer{
+    text-align: center;
+    margin-top: 30px;
+}
+
+button[type = 'submit']{
+    border: none;
+    padding: .75rem;
+    width: 50%;
+    background-color: #0965b0ad;
+    color: white;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: .8s;
+}
+
+button[type = 'submit']:hover{
+    background-color: #417cacad;
+    transition: .8s;
+}
