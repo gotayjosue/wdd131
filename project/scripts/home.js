@@ -14,21 +14,20 @@ const gallery = document.getElementById('gallery');
 const search = document.getElementById('search-bar');
 const noResultsMessage = document.querySelector('#noResultsMessage')
 
+
 function displayPhotos(photos){
     gallery.innerHTML = ''
 
+
+
     if (photos.length === 0){ /*Verifying if there are photos in the home page. This is because if the user search for something and nothing match this message is going to show up*/
 
-        noResultsMessage.diplay = 'none';
+        noResultsMessage.style.display = 'block';
 
-        setTimeout(() => {
-            noResultsMessage.style.display = 'block';
-        }, 800);
-        
     }
     else{
-        noResultsMessage.style.display = 'none'
         photos.forEach(photo => {
+            noResultsMessage.style.display = 'none'
             const image = document.createElement('img')
             image.src = photo.imageUrl
             image.alt = photo.description
@@ -42,7 +41,6 @@ function displayPhotos(photos){
             });
 
             gallery.append(image)
-
         });
     }
 }
