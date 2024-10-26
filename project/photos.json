@@ -2,92 +2,92 @@
     {
       "id": "01",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape1.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape1_s9xwvv.jpg",
       "description": "Trujillo, landscape, trees, blue sky, river, beach, nature, sea"
     
     },
     {
       "id": "02",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape2.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape2_dfny7g.jpg",
       "description": "sea, sunset, mountain, mountains, bay, beach, Trujillo, waves, sky, cloudy"
     },
     {
       "id": "03",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape3.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape3_x1iafd.jpg",
       "description": "sea, Trujillo, cloudy sky, sunset, mountains, beach, mountain, clouds"
     },
     {
       "id": "04",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape4.jpeg",
+      "imageUrl": "landscape4_cs5yfv",
       "description": "sea, sunset, sky, mountains, beach, mountain, sun, cloud, cloudy, trujillo"
     },
     {
       "id": "05",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape5.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape5_jyfqdz.jpg",
       "description": "sunset, mountain, mountains, sun, sky, clouds, sea, beach, trujillo"
     },
     {
       "id": "06",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape6.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape6_ayfng1.jpg",
       "description": "sunset, mountain, mountains, beach, sun, sky, clouds, sea, shore, see, trunk, trujillo"
     },
     {
       "id": "07",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape7.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918111/landscape7_zqseib.jpg",
       "description": "sunset, sun, sky, clouds, beach, sea, shore, see, leaf, river, landscape, trujillo"
     },
     {
       "id": "08",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape8.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918111/landscape8_ry8jxn.jpg",
       "description": "sunset, sun, sky, nature, clouds, beach, sea, shore, see, leaf, river, landscape, trujillo"
     },
     {
       "id": "09",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape9.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918113/landscape9_m2ezxf.jpg",
       "description": "sunset, people, ground, walls, wall, roof, stairs, house, trujillo"
     },
     {
       "id": "10",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape24.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918113/landscape10_kqpoiy.jpg",
       "description": "sunset, sun, sky, clouds, beach, sea, people, landscape, cloudy, trujillo"
     },
     {
       "id": "11",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape11.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918111/landscape11_nnedgm.jpg",
       "description": "sky, clouds, sea, beach, landscape, cloudy, waves, bay, boat, boats, trujillo"
     },
     {
       "id": "12",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape12.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918112/landscape12_kxoyfv.jpg",
       "description": "sky, clouds, sea, beach, river, grass, shore, evening, nature, trujillo"
     },
     {
       "id": "13",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape17.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918114/landscape17_at5vg3.jpg",
       "description": "church, catholic, park, monument, trujillo, mural"
     },
     {
       "id": "14",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape18.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918114/landscape18_bbycor.jpg",
       "description": "bus, buses, urban area, street, town"
     },
     {
       "id": "15",
       "artist": "Versátil RL",
-      "imageUrl": "https://wdd131-finalproject-images.s3.us-east-2.amazonaws.com/landscape22.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918116/landscape22_lgfw6q.jpg",
       "description": "games, play, kids games, seesaw, grass, trees, urban"
     }
   ]
