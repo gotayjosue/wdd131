@@ -18,11 +18,17 @@ function displayPhotos(photos){
     gallery.innerHTML = ''
 
     if (photos.length === 0){ /*Verifying if there are photos in the home page. This is because if the user search for something and nothing match this message is going to show up*/
-        noResultsMessage.style.display = 'block';
+
+        noResultsMessage.diplay = 'none';
+
+        setTimeout(() => {
+            noResultsMessage.style.display = 'block';
+        }, 800);
+        
     }
     else{
+        noResultsMessage.style.display = 'none'
         photos.forEach(photo => {
-            noResultsMessage.style.display = 'none'
             const image = document.createElement('img')
             image.src = photo.imageUrl
             image.alt = photo.description
@@ -52,20 +58,24 @@ const getPhotos = async() => { /*Getting the list of photos and their informatio
 
 
 function searchPhotos(query){ /*This function compares the input provided by the user with the image description to show the results if some match is found*/
+    if(query === ''){
+        displayPhotos(photosList)
+        return
+    }
+    const queryWords = query.toLowerCase().split(' ')
+    const filteredPhotos = photosList.filter(photo => {
+        const descriptionWords = photo.description.toLowerCase().split(', ');
+        return queryWords.some(queryWord => descriptionWords.includes(queryWord))
+    });
 
-    const filteredPhotos = photosList.filter(photo => photo.description.toLowerCase().includes(query.toLowerCase()))
     displayPhotos(filteredPhotos)
 }
 
-search.addEventListener('keypress', (event) => {
+search.addEventListener('input', () => {
 
-    if (event.key === 'Enter'){ /*This one executes the the code inside the searchPhotos function when the user press enter*/
-        const searchTerm = search.value.trim();
-        searchPhotos(searchTerm)
-    }
+    const searchTerm = search.value.trim();
+    searchPhotos(searchTerm)
 
 });
-
-
 
 getPhotos()
