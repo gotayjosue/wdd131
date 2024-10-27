@@ -39,6 +39,10 @@ if (favoritePhotos.length > 0) { /*Iterating through the favorites array to put 
 
         image.src = photo.imageUrl;
         image.alt = photo.description
+        image.addEventListener('click', () => {
+            localStorage.setItem('selectedPhoto', JSON.stringify(photo));
+            window.location.href = 'details.html';
+        });
 
         photoContainer.appendChild(star)
         photoContainer.appendChild(image)
