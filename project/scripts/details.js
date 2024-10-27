@@ -8,6 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+const logo = document.getElementById('logo')
+
+logo.addEventListener('click', () => {
+    window.location.href = 'home.html'
+})
 
 /*Like button functionality*/
 

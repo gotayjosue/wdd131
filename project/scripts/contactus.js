@@ -7,3 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
         navigation.classList.toggle("menu-open");
     });
 });
+
+const logo = document.getElementById('logo')
+
+logo.addEventListener('click', () => {
+    window.location.href = 'home.html'
+})

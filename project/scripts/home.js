@@ -8,6 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+const logo = document.getElementById('logo')
+
+logo.addEventListener('click', () => {
+    window.location.href = 'home.html'
+})
+
 let photosList = []
 
 const gallery = document.getElementById('gallery');
