@@ -47,6 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (selectedPhoto) { /*If data exists in 'selectedPhoto' the photo is placed in the prepared container with it's corresponding information*/
         document.querySelector('#artist-name').textContent = selectedPhoto.artist;
         document.querySelector('#large-image').src = selectedPhoto.imageUrl;
+        document.querySelector('#large-image').alt = selectedPhoto.description;
+        document.querySelector('#artistPhoto').src = selectedPhoto.artistPhoto
+        document.querySelector('#artistPhoto').alt = selectedPhoto.artist
 
         let favorites = JSON.parse(localStorage.getItem('favorites')) || []
         const isFavorite = favorites.some(photo => photo.imageUrl === selectedPhoto.imageUrl)

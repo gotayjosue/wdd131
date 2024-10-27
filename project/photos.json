@@ -1,93 +1,108 @@
 [
     {
       "id": "01",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape1_s9xwvv.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "Trujillo, landscape, trees, blue sky, river, beach, nature, sea"
     
     },
     {
       "id": "02",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape2_dfny7g.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sea, sunset, mountain, mountains, bay, beach, Trujillo, waves, sky, cloudy"
     },
     {
       "id": "03",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape3_x1iafd.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sea, Trujillo, cloudy sky, sunset, mountains, beach, mountain, clouds"
     },
     {
       "id": "04",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape4_cs5yfv.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sea, sunset, sky, mountains, beach, mountain, sun, cloud, cloudy, trujillo"
     },
     {
       "id": "05",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape5_jyfqdz.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sunset, mountain, mountains, sun, sky, clouds, sea, beach, trujillo"
     },
     {
       "id": "06",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918110/landscape6_ayfng1.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sunset, mountain, mountains, beach, sun, sky, clouds, sea, shore, see, trunk, trujillo"
     },
     {
       "id": "07",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918111/landscape7_zqseib.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sunset, sun, sky, clouds, beach, sea, shore, see, leaf, river, landscape, trujillo"
     },
     {
       "id": "08",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918111/landscape8_ry8jxn.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sunset, sun, sky, nature, clouds, beach, sea, shore, see, leaf, river, landscape, trujillo"
     },
     {
       "id": "09",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918113/landscape9_m2ezxf.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sunset, people, ground, walls, wall, roof, stairs, house, trujillo"
     },
     {
       "id": "10",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918113/landscape10_kqpoiy.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sunset, sun, sky, clouds, beach, sea, people, landscape, cloudy, trujillo"
     },
     {
       "id": "11",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918111/landscape11_nnedgm.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sky, clouds, sea, beach, landscape, cloudy, waves, bay, boat, boats, trujillo"
     },
     {
       "id": "12",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918112/landscape12_kxoyfv.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "sky, clouds, sea, beach, river, grass, shore, evening, nature, trujillo"
     },
     {
       "id": "13",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918114/landscape17_at5vg3.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "church, catholic, park, monument, trujillo, mural"
     },
     {
       "id": "14",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918114/landscape18_bbycor.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "bus, buses, urban area, street, town"
     },
     {
       "id": "15",
-      "artist": "Versátil RL",
+      "artist": "Real Andrés Álvarez",
       "imageUrl": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1729918116/landscape22_lgfw6q.jpg",
+      "artistPhoto": "https://res.cloudinary.com/dhu9pmzqp/image/upload/v1730052616/WhatsApp_Image_2024-10-26_at_8.56.46_AM_tptk9p.jpg",
       "description": "games, play, kids games, seesaw, grass, trees, urban"
     }
   ]
